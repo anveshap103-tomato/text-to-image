@@ -160,7 +160,7 @@ export default function App() {
         },
         body: JSON.stringify({
           inputs: prompt.trim(),
-          parameters: { width: 512, height: 512 },
+          parameters: { width: 1024, height: 1024, num_inference_steps: 30, guidance_scale: 7.5 },
         }),
       })
 
